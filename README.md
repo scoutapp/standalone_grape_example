@@ -17,4 +17,6 @@ Important Files:
     to exist. This provides fake versions of those few constants.  If you use
     ActiveRecord, you likely don't need this file, as the real Rails constant
     will suffice.
+  * **config/scout_apm.yml** - change the `name` attribute. It will not be
+    automatically detected
 
